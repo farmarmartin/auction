@@ -1,0 +1,46 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0758a7), to(#ffdd33));
+  background-image: linear-gradient(#0758a7, #ffdd33);
+  background-attachment: fixed;
+}
+
+.gallery {
+  padding: 2em;
+  display: -ms-grid;
+  display: grid;
+  gap: 1em;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  overflow: hidden;
+}
+
+@media (min-width: 500px) {
+  .gallery {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 800px) {
+  .gallery {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.gallery div {
+  padding: 1em;
+  background-color: white;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+.gallery div:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
