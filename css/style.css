@@ -1,3 +1,7 @@
+html {
+  z-index: 1;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
@@ -7,7 +11,7 @@ body {
   background-attachment: fixed;
 }
 
-.gallery {
+body .gallery {
   padding: 2em;
   display: -ms-grid;
   display: grid;
@@ -18,29 +22,47 @@ body {
 }
 
 @media (min-width: 500px) {
-  .gallery {
+  body .gallery {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (min-width: 800px) {
-  .gallery {
+  body .gallery {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
 }
 
-.gallery div {
+body .gallery div {
   padding: 1em;
   background-color: white;
   -webkit-transition: all 0.1s ease-in;
   transition: all 0.1s ease-in;
 }
 
-.gallery div:hover {
+body .gallery div:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   cursor: pointer;
+}
+
+body .detail {
+  width: 100%;
+  height: 100%;
+  background-color: #383838;
+  position: fixed;
+}
+
+body .detail .deta {
+  position: fixed;
+  left: calc(50% - 250px);
+}
+
+body .detail .deta .detailPic {
+  width: 500px;
+  max-width: 500px;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
