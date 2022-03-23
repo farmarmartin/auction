@@ -5,8 +5,8 @@ const data = {
             description: "í umělec a stavitel Leonardo da Vinci. Vytvořil jej během svého pobytu ve Florencii a odvezl jej roce 1516.",
             author: "Leonardo da Vinci",
             date: 1503,
-            images: ["paintings/mona lisa.jpg"],
-            price: null
+            images: ["paintings/mona lisa.jpg", "paintings/monafull.jpg", "paintings/monafull.jpg"],
+            price: "1.000Kč"
         },
 
     art2: 
@@ -15,8 +15,8 @@ const data = {
             description: "Hvězdná noc je obraz od nizozemského postimpresionisty Vincenta van Gogha",
             author: "Vincent Van Gogh",
             date: 1889,
-            images: ["paintings/Starry night.jpg"],
-            price: null
+            images: ["paintings/Starry night.jpg", "paintings/starrynightfullres.jpg", "paintings/starrynightfullres.jpg"],
+            price: "1.000Kč"
         },
 
     art3: 
@@ -25,42 +25,40 @@ const data = {
             description: "Výkřik je expresionistický obraz, nejvýznamnější dílo norského malíře Edvarda Mun.",
             author: "Edvard Munch",
             date: 1893,
-            images: ["paintings/The Scream.jpg"],
-            price: null
+            images: ["paintings/The Scream.jpg", "paintings/screamfull.jpg", "paintings/screamfull.jpg"],
+            price: "1.000Kč"
         },
     
 
     art4: 
         {
             name: "Americká gotika",
-            description: null,
+            description: "popis",
             author: "Grant DeVolson Wood",
             date: 1930,
-            images: ["paintings/American Gothic.jpg"],
-            price: null
+            images: ["paintings/agothic.jpg", "paintings/agothicfull.jpg", "paintings/agothicfull.jpg"],
+            price: "1.000Kč"
         },
     
 
     art5:
         {
             name: "A Friend in Need",
-            description: null,
+            description: "popis",
             author: "Cassius Marcellus Coolidge",
             date: 1903,
-            images: ["paintings/Dogs Playing Poker.jpg"],
-            price: null
+            images: ["paintings/Dogs Playing Poker.jpg", "paintings/AFINfull.jpg", "paintings/AFINfull.jpg"],
+            price: "1.000Kč"
         },
     
     
     art6: 
         {
             name: "The Son of Man",
-            description: null,
+            description: "popis",
             author: "René Magritte",
             date: 1964,
-            images: ["paintings/The Son of Man.jpg"],
-            price: null
+            images: ["paintings/The Son of Man.jpg", "paintings/sonofmanfull.jpg", "paintings/sonofmanfull.jpg"],
+            price: "1.000Kč"
         },
-    
-
 }
